@@ -128,6 +128,7 @@ ul {
   width: 80%;
   height: 450px;
   overflow: auto;
+  
 }
 
 .counter__ {
@@ -160,6 +161,7 @@ input {
   ul {
     width: 100%;
     padding: 0;
+    height: 300px;
   }
 }
 

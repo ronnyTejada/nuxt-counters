@@ -12,7 +12,7 @@
 
 <style scoped>
     .footer__{
-        background-color: rgb(19, 18, 20);
+        background-color: blueviolet;
         height: 50px;
        
         position: fixed;
