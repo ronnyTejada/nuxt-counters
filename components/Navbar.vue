@@ -29,7 +29,7 @@
 <style scoped>
 .navbar__ {
   background-color: blueviolet;
-  height: 50px;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
