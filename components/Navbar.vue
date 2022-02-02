@@ -2,10 +2,14 @@
   <nav class="navbar__">
     <div class="navbar__filtro-1">
       <select name="Filtrar" id="" v-model="$store.state.optionA">
+        <option value="" disabled selected>Ordenar</option>
+
         <option value="alfabetico">Orden alfabetico</option>
         <option value="numerico">Orden numerico</option>
       </select>
       <select name="Filtrar" id="" v-model="$store.state.optionB">
+        <option value="" disabled selected>Dirección</option>
+
         <option value="ascendente">Ascendende</option>
         <option value="descendente">Descendente</option>
       </select>
