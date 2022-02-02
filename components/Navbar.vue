@@ -33,7 +33,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px 0 50px;
+  padding: 0 50px 0px 50px;
 }
 
 .navbar__filtro-2 button{
@@ -49,7 +49,7 @@ input {
 @media (max-width: 788px) {
   .navbar__ {
     flex-direction: column;
-    padding: 0 0 0 0;
+    padding: 0 0 10px 0;
   }
 }
 </style>
