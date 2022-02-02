@@ -15,12 +15,10 @@
         background-color: rgb(19, 18, 20);
         height: 50px;
        
-        position: relative;
-        margin-top: -100px;
-        clear: both;
+        position: fixed;
+        bottom: 0;
         display: flex;
         width: 100%;
-        height: 120px;
         
         
         justify-content: space-between;
