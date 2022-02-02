@@ -87,9 +87,6 @@ export default {
 
           if (!titulo) {
             Swal.showValidationMessage(`Debe agregar un titulo`)
-          }else if(titulo.length > 20){
-            Swal.showValidationMessage(`El titulo no debe tener mas de 20 caracteres`)
-
           }
           return { titulo: titulo }
         },

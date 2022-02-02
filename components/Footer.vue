@@ -15,12 +15,15 @@
         background-color: blueviolet;
         height: 50px;
        
-        position: fixed;
+        position: relative;
+        bottom: 0;
         display: flex;
         width: 100%;
-        bottom: 0;
+        
+        
         justify-content: space-between;
         align-items: center;
+        
         
 
     }

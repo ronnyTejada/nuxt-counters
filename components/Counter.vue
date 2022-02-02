@@ -144,10 +144,12 @@ ul {
 
 input {
   width: 50px;
+  
 }
 
 #buscar {
   width: 200px !important;
+  
   height: 25px;
   margin-top: 10px;
 }
@@ -164,6 +166,12 @@ input {
 @media (max-width: 250px) {
   .counter__ {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 214px) {
+  #buscar{
+    width: 100% !important;
   }
 }
 </style>
