@@ -18,10 +18,10 @@
       </button>
 
       <input type="number" v-model="number" />
-      <button @click="add" v-if="$store.state.contadores.length < 20">
+      <button @click="add" v-if="$store.getters['getCounters'].length < 20">
         New
       </button>
-      <button disabled v-if="$store.state.contadores.length >= 20">New</button>
+      <button disabled v-if="$store.getters['getCounters'].length >= 20">New</button>
     </div>
   </nav>
 </template>
