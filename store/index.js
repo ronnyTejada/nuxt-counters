@@ -13,6 +13,7 @@ export const state = () => ({
   numerico: true,
   optionA: '',
   optionB: '',
+  colors:['#c62828','#6a1b9a','#e91e63',"#d81b60","#c5cae9","#3949ab","#1e88e5"]
 })
 
 export const getters = {
@@ -116,7 +117,7 @@ export const mutations = {
   },
   ADD(state, item) {
     let contador = {}
-
+    item.color=state.colors[Math.floor(Math.random() * 7 + 0)]
     state.contadores.push(item)
     localStorage.setItem('contadores', JSON.stringify(state.contadores))
   },

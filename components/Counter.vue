@@ -13,7 +13,7 @@
         :key="counter.id"
       >
         
-          <section class="counter__">
+          <section class="counter__" :style="`background-color:${counter.color}`">
             <div class="counter__title">{{ counter.title }}</div>
             <div class="counter__buttoms">
               <button @click="restar(counter)">-</button>
@@ -42,6 +42,7 @@ export default {
   data: () => {
     return {
       search: '',
+      color:"#000000"
     }
   },
   methods: {
@@ -138,6 +139,7 @@ ul {
   margin-bottom: 5px;
   padding-left: 5px;
   padding-right: 5px;
+  border-radius: 5px;
 }
 
 input {
