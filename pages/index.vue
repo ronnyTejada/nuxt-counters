@@ -57,7 +57,9 @@ export default {
 body {
   margin: 0 !important;
   padding: 0 !important;
-  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 main{

@@ -15,8 +15,7 @@
         background-color: blueviolet;
         height: 50px;
        
-        position: relative;
-        bottom: 0;
+        margin-top: auto;
         display: flex;
         width: 100%;
         

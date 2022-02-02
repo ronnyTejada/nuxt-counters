@@ -1,5 +1,5 @@
 <template>
-    <div style="height:auto;">
+    <div>
             <header>
               <Navbar />
             </header>
