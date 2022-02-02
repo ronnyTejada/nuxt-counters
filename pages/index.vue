@@ -61,9 +61,10 @@ body {
   margin: 0 !important;
   padding: 0 !important;
   min-height: 100%;
-  display: flex;
-  flex-direction: column;
+  
 }
-
+main{
+  overflow: auto;
+}
 
 </style>
