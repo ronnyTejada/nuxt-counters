@@ -62,7 +62,5 @@ body {
   flex-direction: column;
 }
 
-main{
-  margin-bottom: 3%;
-}
+
 </style>
