@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="height:100vh !important"> 
             <header>
               <Navbar />
             </header>
@@ -20,3 +20,16 @@ export default {
   
 }
 </script>
+
+<style scoped>
+html{
+  height: 100%;
+}
+div {
+  margin: 0 !important;
+  padding: 0 !important;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+</style>
