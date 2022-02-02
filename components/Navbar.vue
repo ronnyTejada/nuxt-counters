@@ -36,6 +36,12 @@
   padding: 0 50px 0 50px;
 }
 
+.navbar__filtro-2 button{
+  background-color: white;
+  border: none;
+
+}
+
 input {
   width: 50px;
 }
