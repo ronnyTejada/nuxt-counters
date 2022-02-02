@@ -63,8 +63,5 @@ body {
   min-height: 100%;
   
 }
-main{
-  overflow: auto;
-}
 
 </style>
