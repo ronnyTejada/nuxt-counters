@@ -6,7 +6,9 @@
 
             <input type="text" v-model="$store.state.total">
         </div>
-       
+        
+
+        <a href="https://github.com/ronnyTejada/nuxt-counters" target="_blank">codigo</a>
     </nav>
 </template>
 
