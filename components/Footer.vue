@@ -8,7 +8,7 @@
         </div>
         
 
-        <a href="https://github.com/ronnyTejada/nuxt-counters" target="_blank" rel=“noreferrer”>codigo</a>
+        <a href="https://github.com/ronnyTejada/nuxt-counters" style="color: black;" target="_blank" rel=“noreferrer”>codigo</a>
     </nav>
 </template>
 
@@ -21,6 +21,7 @@
         bottom: 0;
         display: flex;
         width: 100%;
+      
         
         
         justify-content: space-between;
