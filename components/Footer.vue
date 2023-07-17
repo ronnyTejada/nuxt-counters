@@ -8,7 +8,7 @@
         </div>
         
 
-        <a href="https://github.com/ronnyTejada/nuxt-counters" target="_blank">codigo</a>
+        <a href="https://github.com/ronnyTejada/nuxt-counters" target="_blank" rel=“noreferrer”>codigo</a>
     </nav>
 </template>
 
